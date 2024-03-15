@@ -6,6 +6,7 @@ function PostItems(props) {
     
         props.savedPosts.map ((post)=>{
             const { title, name, image, description} =post
+            
               return <div className={css.SearchItem} key={title}>
                             <p>{title}</p>
                             <p>{name}</p>
